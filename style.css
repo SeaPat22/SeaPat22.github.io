@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(67, 64, 64);
+    position: relative;
+    font-family: sans-serif;
+}
+
+.mainAbout {
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(67, 64, 64);
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto; 
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin-top: 2%;
+    margin-left: 60%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aquamarine;
+    margin-top: -3%;
+    transition: 1s ease;
+}
+
+ul li a:hover {
+    color: rgb(10, 200, 50);
+}
+
+.intro {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.intro h1 {
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.intro h2 {
+    color: whitesmoke;
+}
+
+.intro span {
+    color: rgb(10, 200, 50);
+}
+
+.profilepic {
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.profilepic img {
+    position: absolute;
+    height: 100%;
+    left: 40%;
+    padding-left: 25px;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.profilepic:hover .profile {
+    left: 55%;
+}
+
+.bio {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%
+}
+
+.bio p {
+    font-family: serif;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-bottom: 25px;
+}
+
+.bio span {
+    color: rgb(10, 200, 50);
+    font-weight: bold;
+}
