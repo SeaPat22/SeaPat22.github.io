@@ -1,4 +1,10 @@
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    alert("Thank you for reaching out! I'll get back to you soon.");
-});
+function SendEmail() {
+    const templateParams = {
+        name : document.querySelector("#name").value,
+        email : document.querySelector("#email").value,
+        message : document.querySelector("#message").value,
+    };
+
+    emailjs.send("service_vbxxrno", "template_qjd4buo", templateParams)
+        .then(() => alert("Your message was sent successfully!").catch(() => alert("Sorry, your message was not sent!")));
+}
