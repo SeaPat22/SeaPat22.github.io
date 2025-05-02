@@ -105,6 +105,11 @@ section {
     box-shadow: 0px 0px 10px #ccc;
 }
 
+.container {
+    font-size: 20px;
+    padding: 40px;
+}
+
 form input, form textarea {
     display: block;
     width: 80%;
