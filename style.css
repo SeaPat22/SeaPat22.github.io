@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #363636;
+    background-color: #4f4e4e;
 }
 
 h2 {
@@ -14,10 +14,9 @@ h2 {
 header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    background: #3bc50c;
+    background: #2e9c0a;
     color: whitesmoke;
     padding: 20px;
-    box-shadow: 0px 0px 10px #ccc;
 }
 
 header h1 {
@@ -31,7 +30,6 @@ header a {
 }
 
 header a:hover {
-    color: #363636;
     box-shadow: 0px 0px 5px #ccc;
 }
 
@@ -40,8 +38,8 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: #3bc50c;
-    box-shadow: 0px 0px 10px #ccc;
+    background: #2e9c0a;
+    
 }
 
 nav ul li {
@@ -61,8 +59,21 @@ nav ul li a {
     transition: 1s ease;
 }
 
-nav ul li a:hover {
-    color: #363636;
+.download-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 25px;
+    background: #2e9c0a;
+    border-radius:25px;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.download-btn:hover {
+    box-shadow: 0px 0px 20px #ccc;
 }
 
 #about p {
@@ -73,7 +84,7 @@ nav ul li a:hover {
 
 #about a {
     text-decoration: none;
-    color: #3bc50c;
+    color: #2e9c0a;
     transition: 1s ease;
 }
 
@@ -88,7 +99,7 @@ section {
 }
 
 .project-card {
-    background: whitesmoke;
+    background: #4f4e4e;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
@@ -96,8 +107,16 @@ section {
 
 .project-card a {
     text-decoration: none;
-    color: #3bc50c;
+    color: #2e9c0a;
     transition: 1s ease;
+}
+
+.project-card h3 {
+    color: whitesmoke;
+}
+
+.project-card figcaption {
+    color:whitesmoke;
 }
 
 .project-card a:hover {
@@ -118,25 +137,17 @@ form input, form textarea {
     transition: 1s ease;
 }
 
-form input:hover {
-    box-shadow: 0px 0px 20px #ccc;
-}
-
-form textarea:hover {
-    box-shadow: 0px 0px 20px #ccc;
-}
-
 button {
     font-weight: bold;
     padding: 20px 25px;
-    background: #3bc50c;
+    background: #2e9c0a;
+    border-radius:25px;
     color: whitesmoke;
     border: none;
     cursor: pointer;
     transition: 1s ease;
 }
 
-button:hover {
-    color:#363636;
+button:hover {   
     box-shadow: 0px 0px 20px #ccc;
 }
